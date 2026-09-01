@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+
+# Database files
+data/*.db
+data/*.db-journal
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+.DS_Store
